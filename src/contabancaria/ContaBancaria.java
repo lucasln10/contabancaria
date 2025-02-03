@@ -10,6 +10,7 @@ public class ContaBancaria {
     private int contadorNumero = 1;
     private int contadorAgencia = 0001;
     Scanner sc = new Scanner(System.in);
+
     public ContaBancaria () {
         this.numero = contadorNumero++;
         this.agencia = contadorAgencia;
